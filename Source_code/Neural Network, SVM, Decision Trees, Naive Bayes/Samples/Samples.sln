@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Neuro", "Neuro", "{BE29F5CB-80FB-4CF1-9135-800534B264D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MachineLearning", "MachineLearning", "{A0409E80-C6CE-4DEA-9825-92A2A6BDDC45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classification (SVMs)", "MachineLearning\Classification (SVMs)\Classification (SVMs).csproj", "{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decision Trees", "MachineLearning\Decision Trees\Decision Trees.csproj", "{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naive Bayes", "MachineLearning\Naive Bayes\Naive Bayes.csproj", "{79DAA213-B774-444D-85B1-7AA727C036E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classification (ANNs)", "Neuro\Classification (ANN)\Classification (ANNs).csproj", "{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Mono|Any CPU = Mono|Any CPU
+		Mono|x64 = Mono|x64
+		Mono|x86 = Mono|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Debug|x64.ActiveCfg = Debug|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Debug|x86.ActiveCfg = Debug|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Debug|x86.Build.0 = Debug|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Mono|Any CPU.ActiveCfg = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Mono|Any CPU.Build.0 = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Mono|x64.ActiveCfg = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Mono|x86.ActiveCfg = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Mono|x86.Build.0 = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Release|Any CPU.ActiveCfg = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Release|x64.ActiveCfg = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Release|x86.ActiveCfg = Release|x86
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D}.Release|x86.Build.0 = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Debug|x64.ActiveCfg = Debug|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Debug|x86.ActiveCfg = Debug|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Debug|x86.Build.0 = Debug|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Mono|Any CPU.ActiveCfg = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Mono|Any CPU.Build.0 = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Mono|x64.ActiveCfg = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Mono|x86.ActiveCfg = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Mono|x86.Build.0 = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Release|Any CPU.ActiveCfg = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Release|x64.ActiveCfg = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Release|x86.ActiveCfg = Release|x86
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Release|x86.Build.0 = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Debug|x64.ActiveCfg = Debug|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Debug|x86.ActiveCfg = Debug|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Debug|x86.Build.0 = Debug|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Mono|Any CPU.ActiveCfg = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Mono|Any CPU.Build.0 = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Mono|x64.ActiveCfg = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Mono|x86.ActiveCfg = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Mono|x86.Build.0 = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Release|Any CPU.ActiveCfg = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Release|x64.ActiveCfg = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Release|x86.ActiveCfg = Release|x86
+		{79DAA213-B774-444D-85B1-7AA727C036E7}.Release|x86.Build.0 = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Debug|x64.ActiveCfg = Debug|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Debug|x86.ActiveCfg = Debug|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Debug|x86.Build.0 = Debug|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Mono|Any CPU.ActiveCfg = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Mono|Any CPU.Build.0 = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Mono|x64.ActiveCfg = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Mono|x86.ActiveCfg = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Mono|x86.Build.0 = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Release|Any CPU.ActiveCfg = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Release|x64.ActiveCfg = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Release|x86.ActiveCfg = Release|x86
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{503EF9C0-CE83-40BE-98B2-3481D9FE3B0D} = {A0409E80-C6CE-4DEA-9825-92A2A6BDDC45}
+		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F} = {A0409E80-C6CE-4DEA-9825-92A2A6BDDC45}
+		{79DAA213-B774-444D-85B1-7AA727C036E7} = {A0409E80-C6CE-4DEA-9825-92A2A6BDDC45}
+		{6EC8C18C-65ED-4C93-A8E2-7FB5324EF3C5} = {BE29F5CB-80FB-4CF1-9135-800534B264D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8F350E8-CEB2-4B86-AC55-6367B244864F}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Accord.NET.vsmdi
+	EndGlobalSection
+EndGlobal
